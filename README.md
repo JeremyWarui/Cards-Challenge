@@ -25,14 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-Screenshots for my solution.
 ![Mobile layout](./Screenshots/MobileLayout.jpeg)
 ![Deskop layout](./Screenshots/DesktopDesign.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://jeremywarui.github.io/Cards-Challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://jeremywarui.github.io/Cards-Challenge)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
 
