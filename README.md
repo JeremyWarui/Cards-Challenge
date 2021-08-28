@@ -25,7 +25,6 @@ Users should be able to:
 
 ### Screenshot
 
-Screenshots for my solution.
 ![Mobile layout](./Screenshots/MobileLayout.jpeg)
 ![Deskop layout](./Screenshots/DesktopDesign.jpeg)
 
@@ -58,8 +57,8 @@ I am proud of his code makes the card group responsive:
 
 ### Continued development
 
-I want ot fcus more on the cs grids t improve on layouts of the pages.
+I want to focus more on the cs grids t improve on layouts of the pages.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JeremyWarui)
+- Frontend Mentor - [@JeremyWarui](https://www.frontendmentor.io/profile/JeremyWarui)
