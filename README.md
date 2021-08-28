@@ -31,8 +31,8 @@ Screenshots for my solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://jeremywarui.github.io/Cards-Challenge)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
 
@@ -56,16 +56,10 @@ I am proud of his code makes the card group responsive:
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
 ### Continued development
 
 I want ot fcus more on the cs grids t improve on layouts of the pages.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JeremyWarui)
