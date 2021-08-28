@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /*primary colors*/
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  /*secondary colors*/
+  --alphawhite: hsla(0, 0%, 100%, 0.75);
+  --lightgray: hsl(0, 0%, 95%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  box-sizing: border-box;
+  background-color: var(--lightgray);
+}
+
+main {
+  margin: 3em 0;
+  display: grid;
+  min-height: 90vh;
+  place-items: center;
+}
+
+/* background-colors */
+
+.bg-orange {
+  background-color: var(--brightorange);
+}
+
+.bg-darkcyan {
+  background-color: var(--darkcyan);
+}
+
+.bg-verydarkcyan {
+  background-color: var(--Verydarkcyan);
+}
+
+/* card group */
+.card-group {
+  max-width: 85vw;
+}
+
+/* cards  */
+.card {
+  padding: 2.5em;
+}
+
+.card:first-of-type {
+  border-radius: 6px 6px 0 0;
+}
+
+.card:last-of-type {
+  border-radius: 0 0 6px 6px;
+}
+
+.card-header {
+  padding: 0.8em 0;
+}
+
+.card-body {
+  margin: 1em 0;
+}
+.card-title {
+  font-weight: 700;
+  font-family: "Big Shoulders Display";
+  font-size: 2.5em;
+  color: var(--lightgray);
+}
+.card-text {
+  color: var(--alphawhite);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2;
+}
+.card-footer {
+  padding: 0.8em 0;
+}
+
+/* button */
+.btn {
+  padding: 1.3em 2.6em;
+  border-radius: 2em;
+  border: none;
+  color: var(--darkcyan);
+  font-family: "Lexend Deca";
+  background-color: var(--lightgray);
+}
+
+/* button in orange color background */
+.card .btn-orange-text {
+  color: var(--brightorange);
+}
+
+/* button in darkcyan color background */
+.card .btn-darkcyan-text {
+  color: var(--darkcyan);
+}
+
+/* button in verydarkcyan color background */
+.card .btn-verydarkcyan-text {
+  color: var(--Verydarkcyan);
+}
+
+/* rounded corners */
+.round-top {
+  border-radius: 6px 6px 0 0;
+}
+.round-bottom {
+  border-radius: 0 0 6px 6px;
+}
+.round {
+  border-radius: 6px;
+}
+.round-left {
+  border-radius: 6px 0 0 6px;
+}
+
+.round-right {
+  border-radius: 0 6px 6px 0;
+}
+
+/* margin */
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+  padding: 2em;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ------------------------------
+
+      Media Queries 
+
+----------------------------- */
+
+/* ---small screens ---- */
+
+/* rounded corners for small screens */
+@media screen and (max-width: 500px) {
+  .round-top-sm {
+    border-radius: 6px 6px 0 0;
+  }
+  .round-bottom-sm {
+    border-radius: 0 0 6px 6px;
+  }
+}
+
+/* width for card group on small screens */
+@media screen and (max-width: 500px) {
+  .card-group {
+    max-width: 70vw;
+  }
+}
+
+/* ----- large screens ------ */
+
+@media screen and (min-width: 800px) {
+  /* width for card group on large screens */
+  .card-group {
+    max-width: 80vw;
+    display: grid;
+    grid: 1fr / repeat(3, 1fr);
+  }
+
+  /* card body height in large screen */
+  .card-body {
+    height: 280px;
+  }
+
+  /* cards in large screen */
+  .card:first-of-type {
+    border-radius: 6px 0 0 6px;
+  }
+  .card:last-of-type {
+    border-radius: 0 6px 6px 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card-group {
+    max-width: 70vw;
+  }
+}
